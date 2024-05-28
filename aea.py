@@ -24,6 +24,6 @@ class AdvancedEuclideanAlgorithm:
                 print(f'| {index} | {self.q[index]} | {self.r[index]} | {self.x[index]} | {self.y[index]} |')
 
 if __name__ == "__main__":
-     aea = AdvancedEuclideanAlgorithm(1386, 637)
+     aea = AdvancedEuclideanAlgorithm(a, b)
      aea.run()
      aea.output()
